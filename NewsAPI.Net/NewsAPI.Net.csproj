@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net8.0;net7.0;net6.0;net4.6.2;</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+	  <LangVersion>10.0</LangVersion>
+
+	  <Title>Unofficial newsapi.org API Client</Title>
+	  <Authors>Gunpal Jain</Authors>
+	  <Company />
+	  <Description>Unofficial newsapi.org API Client upgraded to latest .net versions Forked From original</Description>
+	  <PackageProjectUrl>https://github.com/gunpal5/News-API-csharp</PackageProjectUrl>
+	 
+	  <RepositoryUrl>https://github.com/gunpal5/News-API-csharp</RepositoryUrl>
+	  <PackageTags>NewsAPI</PackageTags>
+	  <Version>1.0.0</Version>
+	  <AssemblyVersion>1.0.0</AssemblyVersion>
+	  <FileVersion>1.0.0</FileVersion>
+	  <SignAssembly>True</SignAssembly>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="System.Net.Http" Version="4.3.4" />
+	</ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
